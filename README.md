@@ -5,12 +5,14 @@ Minimal application for event management built using [AWS Amplify](https://aws-a
 ## Deployment instructions
 
 ### Install dependencies
+
 ```
 $ npm install
 $ npm install -g @aws-amplify/cli
 ```
 
 ### Setup stack
+
 ```
 $ amplify configure
 > region: <region of choice>
@@ -35,7 +37,7 @@ $ amplify init
 
 ```
 $ amplify add auth
-> Do you want to use the default authentication and security configuration? Yes, use the default configuration.
+> Do you want to use the default authentication and security configuration? Yes
 ```
 
 ```
@@ -56,6 +58,7 @@ $ amplify push
 ```
 
 ### Publish app
+
 ```
 $ amplify add hosting
 > Select the environment setup: DEV (S3 only with HTTP)
@@ -69,6 +72,7 @@ $ amplify publish
 ```
 
 ### Delete stack
+
 ```
 $ amplify delete
 ```
@@ -76,21 +80,25 @@ $ amplify delete
 ## Development instructions
 
 ### Compile and hot-reload for development
+
 ```
 $ npm run serve
 ```
 
 ### Compile and minify for production
+
 ```
 $ npm run build
 ```
 
 ### Run tests
+
 ```
 $ npm run test
 ```
 
 ### Lint and fix files
+
 ```
 $ npm run lint
 ```
